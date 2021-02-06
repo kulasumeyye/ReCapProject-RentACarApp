@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\Business.csproj": {}
+    "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\kulas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\kulas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,8 +98,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -135,14 +135,14 @@
         }
       }
     },
-    "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\kulas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

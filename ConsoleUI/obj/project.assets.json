@@ -72,11 +72,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\kulas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -96,14 +96,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\Business.csproj"
+            "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\Business.csproj"
             },
-            "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+            "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj"
             }
           }
         }

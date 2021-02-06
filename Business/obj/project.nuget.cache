@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oa1hK8g3kV/VHujBp1w7Xq09NDTgas4roCvSN+58VyF81nWwueFyuOQKelM55QVRNzaQVzDVwu5jjLtC7G5z+g==",
+  "dgSpecHash": "OvS3Fm5Q1Mf2a1jEyGfdRoGoizZF5UiIVbU/N68m08rftw7ZBHCqjejPhonf9qUzBjVXXYMg9Kcr3yjrNSwDlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

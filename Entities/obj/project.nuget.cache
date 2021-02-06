@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oo0iattxtxCza3W0unzrxlmF1E9CMCHbq2GzSUWKP/u5RAmwwIivZcPT+b2U1dBAnrvMmgtlpYjMscRMd1b9+g==",
+  "dgSpecHash": "oYjrMB0lIKPV0x1i55rR4JLMh5Pb06vibSUSE6Y9SsE0KcKj32Z2qcDtMhxujZsAUNqA+jLuN9M+UN/xLJS0xA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kulas\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\kulas\\Desktop\\ReCapProject-RentACarApp\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
