@@ -1,0 +1,9 @@
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\Core\obj\Debug\netstandard2.0\Core.pdb

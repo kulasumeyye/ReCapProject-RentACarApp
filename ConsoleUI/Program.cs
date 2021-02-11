@@ -57,24 +57,41 @@ namespace ConsoleUI
                   Console.WriteLine("CarBrandId:{0} CarColorId:{1} CarDailyPrice:{2} CarModelYear: {3} CarDescription:{4} ", c.BrandId, c.ColorId, c.DailyPrice, c.ModelYear, c.Description);
               }
             */
-            Car car1 = new Car
-            {
-                Id = 2,
-                BrandId = 2,
-                ColorId = 2,
-                DailyPrice = 100,
-                ModelYear = 2020,
-                Description = "Araba2"
+            /* Car car1 = new Car
+             {
+                 Id = 2,
+                 BrandId = 2,
+                 ColorId = 2,
+                 DailyPrice = 100,
+                 ModelYear = 2020,
+                 Description = "Araba2"
 
-            };
+             };
+            Console.WriteLine("--------------EntityFramework-------------------");
+             CarManager carManager = new CarManager(new EfCarDal());
+             carManager.Add(car1);
+             foreach (var car in carManager.GetAll())
+             {
+                 Console.WriteLine(car.Description);
+             }*/
 
+
+            Console.WriteLine("--------------EntityFramework+Core-------------------");
             CarManager carManager = new CarManager(new EfCarDal());
-            carManager.Add(car1);
-            foreach (var car in carManager.GetAll())
+            foreach (var car in carManager.GetCarDetails())
             {
-                Console.WriteLine(car.Description);
+                Console.WriteLine("{0}---{1}---{2}---{3}",car.ColorName,car.BrandName,car.DailyPrice,car.Description);
             }
 
+            ModelManager modelManager = new ModelManager();
+            modelManager.Add(new Model { Id = 1, ModelNo = 2019 });
+
+            ColorManager colorManager = new ColorManager();
+            colorManager.Add(new Color
+            {
+                Id = 6,
+                Name = "Gray"
+            });
         }
     }
 }
