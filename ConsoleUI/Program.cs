@@ -10,7 +10,40 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            /*  CarManager carManager = new CarManager(new InMemoryCarDal());
+            CarManager carManager = new CarManager(new EfCarDal());
+            var result = carManager.GetAll();
+            if(result.Success==true)
+            {
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine(car.Description);
+
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              /*CarManager carManager = new CarManager(new InMemoryCarDal());
 
               Console.WriteLine("-------------------GetAll()-------------------------");
 
@@ -56,8 +89,8 @@ namespace ConsoleUI
               {
                   Console.WriteLine("CarBrandId:{0} CarColorId:{1} CarDailyPrice:{2} CarModelYear: {3} CarDescription:{4} ", c.BrandId, c.ColorId, c.DailyPrice, c.ModelYear, c.Description);
               }
-            */
-            /* Car car1 = new Car
+            
+             Car car1 = new Car
              {
                  Id = 2,
                  BrandId = 2,
@@ -73,7 +106,7 @@ namespace ConsoleUI
              foreach (var car in carManager.GetAll())
              {
                  Console.WriteLine(car.Description);
-             }*/
+             }
 
 
             Console.WriteLine("--------------EntityFramework+Core-------------------");
@@ -91,7 +124,14 @@ namespace ConsoleUI
             {
                 Id = 6,
                 Name = "Gray"
-            });
+            });*/
+
+
+
+
+
+
         }
+
     }
 }
