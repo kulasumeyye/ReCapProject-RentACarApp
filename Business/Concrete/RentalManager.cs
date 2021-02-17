@@ -31,14 +31,11 @@ namespace Business.Concrete
 
         public IDataResult<List<Rental>> GetAll()
         {
-            return new SuccessDataResult<List<Rental>>("Kiralama İşlemi Listelendi");
+            return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(),"Kiralama İşlemi Listelendi");
 
         }
 
-        public IDataResult<List<RentalDetailDto>> GetCarDetails()
-        {
-            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails());
-        }
+       
 
         public IDataResult<List<RentalDetailDto>> GetRentalDetailsDto(int carId)
         {

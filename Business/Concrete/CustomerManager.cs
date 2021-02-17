@@ -29,7 +29,7 @@ namespace Business.Concrete
 
         public IDataResult<List<Customer>> GetAll()
         {
-            return new SuccessDataResult<List<Customer>>("Müşteriler Listelendi");
+            return new SuccessDataResult<List<Customer>>(_customerDal.GetAll(),"Müşteriler Listelendi");
         }
 
         public IResult Update(Customer customer)
