@@ -30,14 +30,14 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSingleton<ICarService, CarManager>(); // => ICarService isteyene CarManager ver.(Eðer Manager da data varsa sakýn yapma!)
+           /* services.AddSingleton<ICarService, CarManager>(); // => ICarService isteyene CarManager ver.(Eðer Manager da data varsa sakýn yapma!)
             services.AddSingleton<ICarDal, EfCarDal>();
             services.AddSingleton<IUserService, UserManager>();
             services.AddSingleton<IUserDal, EfUserDal>();
             services.AddSingleton<IRentalService, RentalManager>();
             services.AddSingleton<IRentalDal, EfRentalDal>();
             services.AddSingleton<ICustomerService, CustomerManager>();
-            services.AddSingleton<ICustomerDal, EfCustomerDal>();
+            services.AddSingleton<ICustomerDal, EfCustomerDal>();*/
 
 
 

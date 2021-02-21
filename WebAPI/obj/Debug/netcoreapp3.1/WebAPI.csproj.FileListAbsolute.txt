@@ -66,3 +66,7 @@ C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\bin\Debug\netcoreapp3.1\C
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
