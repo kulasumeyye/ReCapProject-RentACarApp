@@ -83,3 +83,5 @@ C:\Users\kulas\Desktop\ReCapProject-RentACarApp\ConsoleUI\bin\Debug\netcoreapp3.
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
