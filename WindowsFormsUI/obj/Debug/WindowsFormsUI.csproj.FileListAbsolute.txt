@@ -1,7 +1,6 @@
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\bin\Debug\WindowsFormsUI.exe.config
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\bin\Debug\WindowsFormsUI.exe
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\bin\Debug\WindowsFormsUI.pdb
-C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.csprojAssemblyReference.cache
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.Form1.resources
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.Properties.Resources.resources
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.csproj.GenerateResource.cache
