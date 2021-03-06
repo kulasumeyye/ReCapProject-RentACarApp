@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.Constants.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -21,6 +22,8 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
+
+        [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {

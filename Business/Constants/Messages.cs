@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -28,5 +29,6 @@ namespace Business.Constants
         public static string ColorAdded = "Yeni renk eklendi";
 
         public static string CarImageCountOfCarError { get; internal set; }
+        public static SerializationInfo AuthorizationDenied { get; internal set; }
     }
 }
