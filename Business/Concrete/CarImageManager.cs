@@ -3,17 +3,22 @@ using Business.Constants;
 using Business.Constants.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns;
+using Core.Utilities.Business;
+using Core.Utilities.Herper;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace Business.Concrete
 {
-    public class CarImageMAnager:ICarImageService
+    public class CarImageManager:ICarImageService
     {
         ICarImageDal _carImageDal;
 

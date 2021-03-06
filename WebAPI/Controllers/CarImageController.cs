@@ -15,7 +15,7 @@ namespace WebAPI.Controllers
     {
         ICarImageService _carImageService;
 
-        public CarImagesController(ICarImageService carImageService)
+        public CarImageController(ICarImageService carImageService)
         {
             _carImageService = carImageService;
         }

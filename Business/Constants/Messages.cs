@@ -26,5 +26,7 @@ namespace Business.Constants
         public static string ModelListed = "Modeller listelendi";
 
         public static string ColorAdded = "Yeni renk eklendi";
+
+        public static string CarImageCountOfCarError { get; internal set; }
     }
 }

@@ -7,3 +7,4 @@ C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\Windows
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.csproj.CoreCompileInputs.cache
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.exe
 C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.pdb
+C:\Users\kulas\Desktop\ReCapProject-RentACarApp\WindowsFormsUI\obj\Debug\WindowsFormsUI.csprojAssemblyReference.cache
