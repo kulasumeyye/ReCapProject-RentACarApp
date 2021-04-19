@@ -1,4 +1,5 @@
-﻿using Core.Utilities.Ioc;
+﻿
+using Core.Utilities.IoC;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Linq;
 
 namespace Core.CrossCuttingConcerns.Caching.Microsoft
 {
-    public class MemoryCacheManager : ICacheManager
+ public class MemoryCacheManager : ICacheManager
     {
         IMemoryCache _memoryCache;
 

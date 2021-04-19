@@ -1,12 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.11" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,6 +16,18 @@
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\17ac7938-a368-40cf-98c2-6e13fc329183.jpg" />
+    <None Include="wwwroot\Images\265dcbae-44cf-4997-bd8b-631906865498.jpg" />
+    <None Include="wwwroot\Images\32bb1f8c-d3df-46ce-9f60-617de2e5fbbc.jpg" />
+    <None Include="wwwroot\Images\42892caf-b555-4885-918d-96ac5bc502f0.jpg" />
+    <None Include="wwwroot\Images\5d60adca-0d76-4167-bc11-11b980b7327b.jpg" />
+    <None Include="wwwroot\Images\8398222d-2d13-41c0-8c8c-597098c05f2e.jpg" />
+    <None Include="wwwroot\Images\9d62322e-48eb-42da-9829-83193ad80116.jpg" />
+    <None Include="wwwroot\Images\defaultImage.jpg" />
+    <None Include="wwwroot\Images\e160bc05-2e4d-4c31-b564-d1ebdbb80a9a.jpg" />
   </ItemGroup>
 
 

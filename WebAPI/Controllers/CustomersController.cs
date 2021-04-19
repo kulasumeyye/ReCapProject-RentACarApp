@@ -1,6 +1,5 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,7 +10,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CustomersController : ControllerBase
+    public class CustomersController : Controller
     {
         ICustomerService _customerService;
         public CustomersController(ICustomerService customerService)
@@ -19,16 +18,6 @@ namespace WebAPI.Controllers
             _customerService = customerService;
         }
 
-        [HttpGet("getall")]
-        public IActionResult GetAll()
-        {
-            var result = _customerService.GetAll();
-            if (result.Success)
-            {
-                return Ok(result.Data);
-            }
-            return BadRequest(result.Message);
-        }
         [HttpPost("add")]
         public IActionResult Add(Customer customer)
         {
@@ -38,9 +27,9 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result);
-
         }
-        [HttpPut("update")]
+
+        [HttpPost("update")]
         public IActionResult Update(Customer customer)
         {
             var result = _customerService.Update(customer);
@@ -49,10 +38,9 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result);
-
-
         }
-        [HttpDelete("delete")]
+
+        [HttpPost("delete")]
         public IActionResult Delete(Customer customer)
         {
             var result = _customerService.Delete(customer);
@@ -61,9 +49,51 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result);
-
-
         }
-       
+
+        [HttpGet("getall")]
+        public IActionResult GetAll()
+        {
+            var result = _customerService.GetAll();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getbyid")]
+        public IActionResult GetById(int id)
+        {
+            var result = _customerService.GetById(id);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+
+        [HttpGet("getbyuserid")]
+        public IActionResult GetByUerId(int userId)
+        {
+            var result = _customerService.GetByUserId(userId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getallcustomerdetail")]
+        public IActionResult GetAllCustomerDetail()
+        {
+            var result = _customerService.GetAllCustomerDetail();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }

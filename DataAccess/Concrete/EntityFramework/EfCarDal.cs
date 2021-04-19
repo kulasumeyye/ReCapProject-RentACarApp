@@ -13,24 +13,76 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfCarDal : EfEntityRepositoryBase<Car, RentACarContext>, ICarDal
     {
+        public List<CarDetailDto> GetCarByBrand(int id)
+        {
+            using (RentACarContext context = new RentACarContext())
+            {
+                var result = from car in context.Cars
+                             join color in context.Colors
+                             on car.ColorId equals color.Id
+                             join brand in context.Brands
+                             on car.BrandId equals brand.Id
+                             select new CarDetailDto
+                             {
+                                 BrandName = brand.Name,
+                                 CarName = car.Description,
+                                 CarId = car.Id,
+                                 ColorName = color.Name,
+                                 DailyPrice = car.DailyPrice,
+                                 ModelYear = car.ModelYear,
+                                 BrandId = brand.Id,
+                                 ColorId = color.Id,
+                                 FindexPoint=car.FindexPoint
+                             };
+                return result.Where(c => c.BrandId == id).ToList();
+            }
+        }
+
+        public List<CarDetailDto> GetCarByColor(int id)
+        {
+            using (RentACarContext context = new RentACarContext())
+            {
+                var result = from car in context.Cars
+                             join color in context.Colors
+                             on car.ColorId equals color.Id
+                             join brand in context.Brands
+                             on car.BrandId equals brand.Id  
+                             select new CarDetailDto
+                             {
+                                 BrandName = brand.Name,
+                                 CarName = car.Description,
+                                 CarId = car.Id,
+                                 ColorName = color.Name,
+                                 DailyPrice = car.DailyPrice,
+                                 ModelYear = car.ModelYear,
+                                 BrandId = brand.Id,
+                                 ColorId = color.Id,
+                                 FindexPoint = car.FindexPoint
+                             };
+                return result.Where(c => c.ColorId == id).ToList();
+            }
+        }
+
         public List<CarDetailDto> GetCarDetails()
         {
-            using (RentACarContext context=new RentACarContext())
+            using (RentACarContext context = new RentACarContext())
             {
-                var result = from c in context.Cars
+                var result = from car in context.Cars
                              join color in context.Colors
-                             
-                             on c.ColorId equals color.ColorId
-                             join b in context.Brands
-                             on c.BrandId equals b.BrandId
-
-
+                             on car.ColorId equals color.Id
+                             join brand in context.Brands
+                             on car.BrandId equals brand.Id
                              select new CarDetailDto
-                             { 
-                                 Id = c.Id, ColorName = color.Name, 
-                                 BrandName=b.Name,
-                                 DailyPrice = c.DailyPrice,
-                                 Description = c.Description
+                             {
+                                 BrandName = brand.Name,
+                                 CarName = car.Description,
+                                 CarId = car.Id,
+                                 ColorName = color.Name,
+                                 DailyPrice = car.DailyPrice,
+                                 ModelYear = car.ModelYear,
+                                 BrandId = brand.Id,
+                                 ColorId = color.Id,
+                                 FindexPoint = car.FindexPoint
                              };
                 return result.ToList();
             }

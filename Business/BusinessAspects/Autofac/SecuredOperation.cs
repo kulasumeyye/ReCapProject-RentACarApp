@@ -1,11 +1,13 @@
-﻿using Castle.DynamicProxy;
-using Core.Utilities.Ioc;
+﻿using Business.Constants;
+using Castle.DynamicProxy;
+using Core.Extension;
+using Core.Utilities.Interceptors;
+using Core.Utilities.IoC;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.DependencyInjection;
-using Core.Extensions;
 
 namespace Business.BusinessAspects.Autofac
 {
@@ -31,7 +33,7 @@ namespace Business.BusinessAspects.Autofac
                     return;
                 }
             }
-            throw new Exception("Yetkiniz Yok");
+            throw new Exception(Messages.AuthorizationDenied);
         }
     }
 }

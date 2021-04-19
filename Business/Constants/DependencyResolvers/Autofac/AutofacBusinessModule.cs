@@ -24,10 +24,14 @@ namespace Business.Constants.DependencyResolvers.Autofac
             builder.RegisterType<EfRentalDal>().As<IRentalDal>().SingleInstance();
             builder.RegisterType<CustomerManager>().As<ICustomerService>().SingleInstance();
             builder.RegisterType<EfCustomerDal>().As<ICustomerDal>().SingleInstance();
+            builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
+            builder.RegisterType<EfColorDal>().As<IColorDal>().SingleInstance();
+
 
             builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<EfUserDal>().As<IUserDal>();
-
+            builder.RegisterType<BrandManager>().As<IBrandService>();
+            builder.RegisterType<EfBrandDal>().As<IBrandDal>();
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
